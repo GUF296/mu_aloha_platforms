@@ -1,0 +1,200 @@
+ <?xml version="1.0" encoding="utf-8"?>
+<PanelName>Lenovo Lapis NT36532 TIANMA DSI 3K Video Mode Panel</PanelName>
+<PanelDescription>Lenovo Lapis NT36532 TIANMA DSI 3K Video Mode Panel(1840 2944 24bpp)</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>2944</HorizontalActive>
+ <HorizontalFrontPorch>139</HorizontalFrontPorch>
+ <HorizontalBackPorch>64</HorizontalBackPorch>
+ <HorizontalSyncPulse>16</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>1840</VerticalActive>
+ <VerticalFrontPorch>26</VerticalFrontPorch>
+ <VerticalBackPorch>182</VerticalBackPorch>
+ <VerticalSyncPulse>2</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>8</InterfaceType>
+ <InterfaceColorFormat>27</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>1</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>42</DSIColorFormat>
+ <DSITrafficMode>2</DSITrafficMode>
+ <DSIDSCEnable>True</DSIDSCEnable>
+ <DSIDSCMajor>1</DSIDSCMajor>
+ <DSIDSCMinor>1</DSIDSCMinor>
+ <DSIDSCScr>1</DSIDSCScr>
+ <DSIDSCProfileID>8</DSIDSCProfileID>
+ <DSIDSCSliceWidth>736</DSIDSCSliceWidth>
+ <DSIDSCSliceHeight>20</DSIDSCSliceHeight>
+ <DSIDSCSlicePerPacket>2</DSIDSCSlicePerPacket>
+ <DSILanes>4</DSILanes>
+ <DSIHsaHseAfterVsVe>False</DSIHsaHseAfterVsVe>
+ <DSILowPowerModeInHFP>False</DSILowPowerModeInHFP>
+ <DSILowPowerModeInHBP>False</DSILowPowerModeInHBP>
+ <DSILowPowerModeInHSA>False</DSILowPowerModeInHSA>
+ <DSILowPowerModeInBLLPEOF>True</DSILowPowerModeInBLLPEOF>
+ <DSILowPowerModeInBLLP>True</DSILowPowerModeInBLLP>
+ <DSIRefreshRate>0x780000</DSIRefreshRate>
+ <DSIPacketTransferHS>True</DSIPacketTransferHS>
+ <DSILP11AtInit>True</DSILP11AtInit>
+ <DSIControllerMapping>
+  00 01
+ </DSIControllerMapping>
+</Group>
+<DSIInitSequence>
+ FD 03
+ 39 FF 10
+ 39 FB 01
+ 39 F0 AA
+ 39 F1 55
+ 39 F2 99
+
+ 39 FF 20
+ 39 FB 01
+ 39 0D 43
+ 39 32 72
+ 39 69 DD
+
+ 39 FF 23
+ 39 FB 01
+ 39 BA 1F 97
+ 39 BB 1D 97
+ 39 B1 1C 97
+ 39 BC 0D 00 00
+
+ 39 FF 24
+ 39 FB 01
+ 39 DA 06
+
+ 39 FF 25
+ 39 FB 01
+ 39 0F 20
+
+ 39 FF 27
+ 39 FB 01
+ 39 13 00
+ 39 7D 01
+ 39 7E 0A
+ 39 7F 01
+ 39 D0 71
+ 39 D1 84
+ 39 D2 38
+ 39 DE 43
+ 39 DF 02
+
+ 39 FF 2A
+ 39 FB 01
+ 39 B1 00 01
+
+ 39 FF 23
+ 39 FB 01
+ 39 00 60
+ 39 05 24
+ 39 07 20
+ 39 08 01
+ 39 09 C2
+ 39 10 00
+ 39 11 03
+ 39 12 41
+ 39 15 64
+ 39 16 15
+ 39 30 FF
+ 39 31 FF
+ 39 32 FF
+ 39 33 FC
+ 39 34 F9
+ 39 35 F5
+ 39 36 F2
+ 39 37 F0
+ 39 38 ED
+ 39 39 EB
+ 39 3A E8
+ 39 3B E5
+ 39 3D E3
+ 39 3F E0
+ 39 40 DE
+ 39 41 DB
+ 39 58 FF
+ 39 59 FF
+ 39 5A FA
+ 39 5B F7
+ 39 5C F2
+ 39 5D EB
+ 39 5E E3
+ 39 5F D9
+ 39 60 D1
+ 39 61 CC
+ 39 62 C7
+ 39 63 BF
+ 39 64 BA
+ 39 65 B5
+ 39 66 B0
+ 39 67 AB
+ 39 19 00
+ 39 1A 02
+ 39 1B 04
+ 39 1C 08
+ 39 1D 0E
+ 39 1E 14
+ 39 1F 18
+ 39 20 1E
+ 39 21 22
+ 39 22 26
+ 39 23 2A
+ 39 24 30
+ 39 25 34
+ 39 26 38
+ 39 27 3C
+ 39 28 3F
+ 39 29 10
+ 39 2B 28
+
+ 39 FF 10
+ 39 FB 01
+ 39 3B 03 B8 1A 0A 0A 00
+
+ 39 FF 10
+ 39 FB 01
+ 39 51 07 FF
+ 39 53 2C
+ 39 55 01
+ 39 81 02 02 22 00 2A 40 2A BE 3A FC 3A FA 3A F8 3B 38
+ 39 82 3B 78 3B B6 4B B6 4B F4 4B F4 6C 34 84 74
+ 39 90 83
+ 39 91 AB 28 00 14 F2 00 02 CE 01 B0 00 0A 06 51 03 C0
+ 39 92 11 00
+ 05 11
+ FF 78
+ 05 29
+ FF 28
+
+ 39 FF 10
+ 39 FB 01
+ 39 F0 55
+ 39 F1 AA
+ 39 F2 66
+</DSIInitSequence>
+<DSITermSequence>
+ FD 03
+ 05 28
+ 05 10
+ FF 64
+</DSITermSequence>
+<Group id='Backlight Configuration'>
+ <BacklightType>2</BacklightType>
+ <BacklightPmicControlType>2</BacklightPmicControlType>
+ <BacklightBitWidth>11</BacklightBitWidth>
+ <BacklightDefault>100</BacklightDefault>
+ <DisplayResetInfo>0 5000 10000 10000 0</DisplayResetInfo>
+</Group>
